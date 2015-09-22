@@ -7,7 +7,9 @@ Example:
 onDOMchange('#foo', addedCallback, removedCallback);
 
 @param {string} '#foo' => selector passed to document.querySelector() to search all created/removed elements
+
 @param {function} addedCallback() => Callback to be called when the selector matches a created element
+
 @param {function} removedCallback() => Callback to be called when the selector matches a removed element
 
 Example using a jQuery script
