@@ -2,7 +2,7 @@
 
 onDOMchange lets you create custom elements (like web components), or execute vanilla JS scripts on dynamically created elements. One function, 1KB minified.
 
-Example:
+### Example:
 
 onDOMchange('#foo', addedCallback, removedCallback);
 
@@ -12,7 +12,7 @@ onDOMchange('#foo', addedCallback, removedCallback);
 
 @param {function} removedCallback() => Callback to be called when the selector matches a removed element
 
-Example using a jQuery script
+### Example using a jQuery script
 
 onDOMchange( '#foo', $('#foo').execute );
 
